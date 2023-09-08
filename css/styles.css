@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define some basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background-color: #d3d3d3; /* Green */
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+/* Navigation menu styling */
+/* Navigation menu styling */
+nav {
+  background-color: #156064; /* Darker Green */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.left-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.left-links li {
+  margin-right: 20px;
+}
+
+.left-links li:last-child {
+  margin-right: 0;
+}
+
+.left-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.right-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.right-links li {
+  margin-left: 20px;
+}
+
+.right-links li:first-child {
+  margin-left: 0;
+}
+
+.right-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Add icons (Font Awesome used here) */
+.right-links i {
+  padding: 0 5px;
+}
+
+/* .icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+  margin: 10px;
+  width: 25px;
+} */
+
+
+/* Main content container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #E0F2E9; /* Light Green */
+}
+
+/* Footer styling */
+footer {
+  background-color: #156064; /* Green */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
